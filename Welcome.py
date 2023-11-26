@@ -2,8 +2,8 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Tradertools · Simple & Useful Tools for Traders",
-    page_icon="🛠️",
+    page_title="Tickers Data · Small-Caps Research Made Simple",
+    page_icon="📊",
     layout="wide",
 )
 
@@ -12,7 +12,7 @@ def add_logo():
         """
         <style>
             [data-testid="stSidebarNav"]::before {
-            content: "tradertools";
+            content: "Tickers Data";
             display: block;
             font-weight: bold; /* Makes the font bold */
             margin-left: 25px;
@@ -31,7 +31,7 @@ add_logo()
 
 # Page content
 st.markdown("""
-    ## Welcome to TraderTools!
+    ## Welcome to Tickers Data
 
     ##
     

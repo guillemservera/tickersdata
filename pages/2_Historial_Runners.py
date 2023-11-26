@@ -5,12 +5,13 @@ import pandas as pd
 # Setting up the page configuration
 st.set_page_config(page_title="Position Sizing · Tradertools", page_icon="🧮", layout="wide")
 
+
 def add_logo():
     st.markdown(
         """
         <style>
             [data-testid="stSidebarNav"]::before {
-            content: "tradertools";
+            content: "Tickers Data";
             display: block;
             font-weight: bold; /* Makes the font bold */
             margin-left: 25px;
